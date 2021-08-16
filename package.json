@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "test": "jest src",
+    "posttest": "npm run lint",
     "build": "rm -rf dist && ncc build"
   },
   "repository": {
