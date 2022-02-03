@@ -33395,7 +33395,7 @@ WritableState.prototype.getBuffer = function getBuffer() {
 // whose prototype chain only points to Readable.
 
 
-var realHasInstance;
+var realHasInstanced;
 
 if (typeof Symbol === 'function' && Symbol.hasInstance && typeof Function.prototype[Symbol.hasInstance] === 'function') {
   realHasInstance = Function.prototype[Symbol.hasInstance];
